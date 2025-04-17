@@ -1,0 +1,39 @@
+ejemplo1_sesion2.cpp:
+Operación: Uso de punteros dinámicos en estructuras.
+Función: Crea un array dinámico de puntos para un equipo, calculando y mostrando
+los puntos de los partidos jugados. Incluye manejo de memoria dinámica con constructores, copia, movimiento y destructores.
+
+Pregunta_1A_a.cpp:
+Operación: Cálculo del módulo de un vector de dimensión N.
+Función: Define un vector con valores aleatorios entre -5 y 5, y calcula el módulo
+del vector utilizando la fórmula de la raíz cuadrada de la suma de los cuadrados de sus elementos.
+
+Pregunta_1A_b.cpp:
+Operación: Manejo de matrices 2D dinámicas.
+Función: Crea una matriz dinámica de enteros, la llena con valores aleatorios,
+y la imprime. También libera la memoria asignada dinámicamente en el destructor.
+
+Pregunta_1A_c.cpp:
+Operación: Crea una matriz a partir de un vector.
+Función: Extiende la funcionalidad de VectorND a Matriz2D creando una matriz
+usando los valores de un vector y permitiendo operaciones de impresión.
+
+Pregunta_1B_a.cpp:
+Operación: Manejo de punteros dinámicos en un objeto Personaje.
+Función: Crea y maneja un personaje con niveles, vida y puntos. Incluye constructores
+de copia y movimiento, y libera memoria de los puntos en el destructor.
+
+Pregunta_1B_b.cpp:
+Operación: Uso de punteros dinámicos en un objeto Dados.
+Función: Crea un objeto Dados que maneja el lanzamiento de dados con valores aleatorios.
+Implementa constructores de copia y movimiento y permite el cálculo del promedio de los lanzamientos.
+
+Pregunta_1B_c.cpp:
+Operación: Manejo de punteros y movimiento en un objeto Foo.
+Función: Crea objetos Foo usando punteros dinámicos y maneja la copia y el
+movimiento entre objetos, mostrando cómo funciona el constructor de movimiento en C++.
+
+TODO_SOBRE_HEAP.cpp:
+Operación: Manejo de memoria dinámica en el heap.
+Función: Demuestra cómo reservar y liberar memoria dinámica usando new y delete.
+Incluye ejemplos con arreglos y clases en el heap, y explica las diferencias entre heap y stack.
