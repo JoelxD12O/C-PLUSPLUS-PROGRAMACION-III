@@ -1,0 +1,3 @@
+C:/Users/joel/CLionProjects/SEMANA_1/cmake-build-debug/CMakeFiles/SEMANA_1.dir
+C:/Users/joel/CLionProjects/SEMANA_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/joel/CLionProjects/SEMANA_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

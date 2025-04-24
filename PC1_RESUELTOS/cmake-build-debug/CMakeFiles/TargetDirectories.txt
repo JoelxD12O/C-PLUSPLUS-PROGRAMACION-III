@@ -1,0 +1,3 @@
+C:/Users/joel/CLionProjects/PC1_RESUELTOS/cmake-build-debug/CMakeFiles/PC1_RESUELTOS.dir
+C:/Users/joel/CLionProjects/PC1_RESUELTOS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/joel/CLionProjects/PC1_RESUELTOS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

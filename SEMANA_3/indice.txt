@@ -1,0 +1,49 @@
+Ejercicio1_A.cpp:
+Operación: Creación de clases con amigos y herencia.
+Función: Maneja personajes (Pj) con propiedades como vida, ataque y la capacidad de curar y atacar usando objetos como Item y Arma.
+
+
+Ejercicio3_A.cpp:
+Operación: Cálculo del área de figuras geométricas.
+Función: Usa clases base y derivadas con funciones virtuales para calcular el área de un Cuadrado. Sobrecarga de << para mostrar el área.
+
+
+Lab3A.cpp:
+Operación: Uso de conceptos en plantillas.
+Función: Implementa una restricción (concepto imprimible) para asegurarse de que solo tipos imprimibles puedan ser pasados a la función print.
+
+
+Lab3A_ejer2.cpp:
+Operación: Suma de tipos sumables.
+Función: Usa el concepto sumable para restringir los tipos a aquellos que soporten la suma y maneja casos especiales como la suma de un string y un int.
+
+
+Lab3A_ejer3.cpp:
+Operación: Realiza operaciones matemáticas básicas en una clase plantilla.
+Función: La clase Par permite realizar operaciones de suma, resta, producto y división con cualquier tipo de datos.
+
+
+Lab3A_ejer4.cpp:
+Operación: Generación de números aleatorios en un rango.
+Función: Implementa una estructura range para generar números aleatorios entre dos valores y los imprime.
+
+
+Lab3A_ejer5.cpp:
+Operación: Manejo de punteros con plantillas.
+Función: Crea una clase pointer que administra punteros y permite su desreferenciación y eliminación de memoria al final.
+
+
+Lab3B_ejer1.cpp:
+Operación: Generación de polinomios con coeficientes aleatorios.
+Función: La clase Polinomio genera un polinomio aleatorio y lo evalúa en un valor dado.
+
+
+Lab3B_ejer2.cpp:
+Operación: Restricción en la multiplicación de tipos usando conceptos.
+Función: Usa conceptos para asegurarse de que los tipos pueden multiplicarse antes de realizar operaciones, y crea polinomios con coeficientes aleatorios.
+
+
+Lab3B_ejer3.cpp:
+Operación: Generación de polinomios y impresión de coeficientes.
+Función: Similar al ejercicio anterior, pero con la posibilidad de imprimir polinomios usando plantillas de contenedores (vector, list).
+

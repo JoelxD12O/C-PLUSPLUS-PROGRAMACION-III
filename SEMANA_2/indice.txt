@@ -1,0 +1,17 @@
+Ejercicio1_lab_A.cpp:
+Operación: Manejo de jugadores con operadores sobrecargados.
+Función: Utiliza operadores >> y + para implementar ataques y curaciones entre personajes,
+modificando sus puntos de vida.
+
+
+Ejercicio2_lab_A.cpp:
+Operación: Manejo de números complejos.
+Función: Sobrecarga de operadores + y ++ para sumar y aumentar valores en números complejos.
+Implementación de entrada y salida de datos para Complejo.
+
+
+
+Ejercicio3_lab_A.cpp:
+Operación: Barajar y mostrar cartas de una baraja.
+Función: Crea una baraja de cartas, las baraja un número especificado de veces y
+muestra las tres primeras cartas, calculando puntos basados en reglas específicas.

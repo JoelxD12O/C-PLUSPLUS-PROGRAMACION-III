@@ -1,0 +1,33 @@
+
+
+A_EJER_1.cpp:
+Operación: Suma de dos parámetros, con sobrecarga para int + char.
+Función: Realiza la suma de dos valores, y si es char, convierte el valor ASCII.
+
+A_EJER_2.cpp:
+Operación: Encuentra el valor máximo en un vector.
+Función: Compara cada valor con el máximo usando un ciclo. Especialización para string por longitud de cadena.
+
+A_EJER_3.cpp:
+Operación: Detecta si el valor es un puntero.
+Función: Usa plantillas para detectar si un valor es un puntero o no, con especialización para punteros a int.
+
+A_EJERC_4.cpp:
+Operación: Maneja diferentes tipos de datos en una lista.
+Función: Inserta valores de diferentes tipos y accede a ellos usando un puntero genérico.
+
+
+B_EJER_1.cpp: Suma de los cuadrados de los parámetros.
+Función: Eleva cada número al cuadrado y luego suma los resultados.
+
+B_EJER_2.cpp: Encuentra el valor máximo entre los parámetros.
+Función: Compara cada número con el máximo usando una expresión condicional.
+
+B_EJER_3.cpp: Inserta múltiples elementos en un vector y los imprime.
+Función: Usa expansión de parámetros para agregar elementos al vector.
+
+B_EJER_4.cpp: Calcula la norma (magnitude) de los parámetros.
+Función: Suma los cuadrados de los parámetros y luego toma la raíz cuadrada.
+
+B_EJERC_5.cpp: Calcula media aritmética, geométrica y armónica.
+Función: Implementa fórmulas de medias usando parámetros variádicos.
