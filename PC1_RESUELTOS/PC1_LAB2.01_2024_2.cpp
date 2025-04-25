@@ -1,28 +1,29 @@
 #include <iostream>
 using namespace std;
 
+template<typename T>  // Template para la clase base
 class Personaje {
 public:
     string nombre;
-    int salud, ataque, defensa, mana, precision_velocida;
+    T salud, ataque, defensa, mana, precision_velocida;
 
-    Personaje(string name, int sa, int ataq, int def, int ma, int prec)
+    Personaje(string name, T sa, T ataq, T def, T ma, T prec)
         : nombre(name), salud(sa), ataque(ataq), defensa(def), mana(ma), precision_velocida(prec) {}
 
-    virtual void atacar(Personaje& otro) = 0;
-    virtual void defenderse(Personaje& otro) = 0;
-    virtual void usarHabilidad(Personaje& otro) = 0;
-    virtual void Precision(Personaje& otro) = 0;
+    virtual void atacar(Personaje<T>& otro) = 0;
+    virtual void defenderse(Personaje<T>& otro) = 0;
+    virtual void usarHabilidad(Personaje<T>& otro) = 0;
+    virtual void Precision(Personaje<T>& otro) = 0;
     virtual ~Personaje() {}
 
     string getNombre() { return nombre; }
-    int getSalud() { return salud; }
-    int getAtaque() { return ataque; }
-    int getDefensa() { return defensa; }
-    int getMana() { return mana; }
-    int getPrecision() { return precision_velocida; }
+    T getSalud() { return salud; }
+    T getAtaque() { return ataque; }
+    T getDefensa() { return defensa; }
+    T getMana() { return mana; }
+    T getPrecision() { return precision_velocida; }
 
-    friend ostream& operator<<(ostream& os, const Personaje& p) {
+    friend ostream& operator<<(ostream& os, const Personaje<T>& p) {
         os << "---------------------------\n";
         os << "nombre: " << p.nombre << endl;
         os << "salud: " << p.salud << endl;
@@ -34,85 +35,89 @@ public:
     }
 };
 
-class Guerrero : public Personaje {
+template<typename T>  // Guerrero ahora es un template
+class Guerrero : public Personaje<T> {
 public:
-    Guerrero(string name, int sa, int ataq, int def, int ma, int prec)
-        : Personaje(name, sa, ataq, def, ma, prec) {}
+    Guerrero(string name, T sa, T ataq, T def, T ma, T prec)
+        : Personaje<T>(name, sa, ataq, def, ma, prec) {}
 
-    void atacar(Personaje& otro) override {
-        cout << "El guerrero " << getNombre() << " ataca a " << otro.getNombre() << endl;
-        cout << " + " << getAtaque() << " puntos de dano" << endl;
-        otro.salud -= getAtaque();  // Se resta vida al otro personaje
+    void atacar(Personaje<T>& otro) override {
+        cout << "El guerrero " << this->getNombre() << " ataca a " << otro.getNombre() << endl;
+        cout << " + " << this->getAtaque() << " puntos de dano" << endl;
+        otro.salud -= this->getAtaque();  // Se resta vida al otro personaje
         if (otro.salud < 0) otro.salud = 0;
     }
 
-    void usarHabilidad(Personaje& otro) override {
-        cout << getNombre() << " usa una habilidad de guerrero!" << endl;
+    void usarHabilidad(Personaje<T>& otro) override {
+        cout << this->getNombre() << " usa una habilidad de guerrero!" << endl;
     }
 
-    void Precision(Personaje& otro) override {
-        cout << "Precision de " << getNombre() << ": " << getPrecision() << endl;
+    void Precision(Personaje<T>& otro) override {
+        cout << "Precision de " << this->getNombre() << ": " << this->getPrecision() << endl;
     }
 
-    void defenderse(Personaje& otro) override {
-        cout << getNombre() << " se defiende contra " << otro.getNombre() << endl;
+    void defenderse(Personaje<T>& otro) override {
+        cout << this->getNombre() << " se defiende contra " << otro.getNombre() << endl;
     }
 };
 
-class Mago : public Personaje {
+template<typename T>  // Mago ahora es un template
+class Mago : public Personaje<T> {
 public:
-    Mago(string name, int sa, int ataq, int def, int ma, int prec)
-        : Personaje(name, sa, ataq, def, ma, prec) {}
+    Mago(string name, T sa, T ataq, T def, T ma, T prec)
+        : Personaje<T>(name, sa, ataq, def, ma, prec) {}
 
-    void atacar(Personaje& otro) override {
-        cout << "El mago " << getNombre() << " lanza un hechizo a " << otro.getNombre() << endl;
-        cout << " + " << getAtaque() << " puntos de dano" << endl;
-        otro.salud -= getAtaque();  // Se resta vida al otro personaje
+    void atacar(Personaje<T>& otro) override {
+        cout << "El mago " << this->getNombre() << " lanza un hechizo a " << otro.getNombre() << endl;
+        cout << " + " << this->getAtaque() << " puntos de dano" << endl;
+        otro.salud -= this->getAtaque();  // Se resta vida al otro personaje
         if (otro.salud < 0) otro.salud = 0;
     }
 
-    void usarHabilidad(Personaje& otro) override {
-        cout << getNombre() << " usa una habilidad magica!" << endl;
+    void usarHabilidad(Personaje<T>& otro) override {
+        cout << this->getNombre() << " usa una habilidad magica!" << endl;
     }
 
-    void Precision(Personaje& otro) override {
-        cout << "Precision de " << getNombre() << ": " << getPrecision() << endl;
+    void Precision(Personaje<T>& otro) override {
+        cout << "Precision de " << this->getNombre() << ": " << this->getPrecision() << endl;
     }
 
-    void defenderse(Personaje& otro) override {
-        cout << getNombre() << " se defiende magicamente contra " << otro.getNombre() << endl;
+    void defenderse(Personaje<T>& otro) override {
+        cout << this->getNombre() << " se defiende magicamente contra " << otro.getNombre() << endl;
     }
 };
 
-class Arquero : public Personaje {
+template<typename T>  // Arquero ahora es un template
+class Arquero : public Personaje<T> {
 public:
-    Arquero(string name, int sa, int ataq, int def, int ma, int prec)
-        : Personaje(name, sa, ataq, def, ma, prec) {}
+    Arquero(string name, T sa, T ataq, T def, T ma, T prec)
+        : Personaje<T>(name, sa, ataq, def, ma, prec) {}
 
-    void atacar(Personaje& otro) override {
-        cout << "El arquero " << getNombre() << " dispara una flecha a " << otro.getNombre() << endl;
-        cout << " + " << getAtaque() << " puntos de dano" << endl;
-        otro.salud -= getAtaque();  // Se resta vida al otro personaje
+    void atacar(Personaje<T>& otro) override {
+        cout << "El arquero " << this->getNombre() << " dispara una flecha a " << otro.getNombre() << endl;
+        cout << " + " << this->getAtaque() << " puntos de dano" << endl;
+        otro.salud -= this->getAtaque();  // Se resta vida al otro personaje
         if (otro.salud < 0) otro.salud = 0;
     }
 
-    void usarHabilidad(Personaje& otro) override {
-        cout << getNombre() << " usa una habilidad de arquero!" << endl;
+    void usarHabilidad(Personaje<T>& otro) override {
+        cout << this->getNombre() << " usa una habilidad de arquero!" << endl;
     }
 
-    void Precision(Personaje& otro) override {
-        cout << "Precision de " << getNombre() << ": " << getPrecision() << endl;
+    void Precision(Personaje<T>& otro) override {
+        cout << "Precision de " << this->getNombre() << ": " << this->getPrecision() << endl;
     }
 
-    void defenderse(Personaje& otro) override {
-        cout << getNombre() << " se defiende de las flechas de " << otro.getNombre() << endl;
+    void defenderse(Personaje<T>& otro) override {
+        cout << this->getNombre() << " se defiende de las flechas de " << otro.getNombre() << endl;
     }
 };
 
 int main() {
-    Personaje* personaje;
-    Guerrero guerrero("Thor", 100, 20, 10, 5, 15); // salud = 100, ataque = 20
-    Mago mago("Merlin", 50, 15, 8, 30, 12); // salud = 50, ataque = 15
+    // Usando tipo int
+    Guerrero<int> guerrero("Thor", 100, 20, 10, 5, 15);
+    Mago<int> mago("Merlin", 50, 15, 8, 30, 12);
+
     cout << mago << endl;
     guerrero.atacar(mago);
     cout << mago << endl;
