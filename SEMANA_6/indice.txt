@@ -1,0 +1,26 @@
+Índice de Archivos - C++ Programación III
+
+main.cpp
+- Demostración de uso de vector y forward_list
+- Función para mostrar direcciones de memoria de elementos en un vector
+- Plantilla genérica para imprimir elementos entre iteradores
+- Ejemplos de manipulación de forward_list (inserción, eliminación)
+
+SEM_6_LAB1_EJER1.cpp
+- Ejercicio con vectores y algoritmos STL
+- Plantillas para imprimir elementos y encontrar el valor máximo
+- Cálculo del promedio de elementos en un rango
+- Generación de números aleatorios con generate()
+
+SEM_6_LAB1_EJER2.cpp
+- Manejo de forward_list con números aleatorios
+- Eliminación de elementos pares usando remove_if()
+- Ordenamiento de lista con sort()
+- Función para detectar números primos
+- Conteo de números primos en la lista
+
+SEM_6_LAB1_EJER3.cpp
+- Implementación de inserción al final en forward_list
+- Demostración de recorrido e inserción con iteradores
+- Uso de next() para navegación en lista enlazada
+- Inserción de elementos en posición específica
