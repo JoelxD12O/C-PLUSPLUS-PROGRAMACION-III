@@ -1,0 +1,19 @@
+INDICE DE CÓDIGOS - SEMANA 5
+
+ejemplo_1.cpp
+→ Derivadas numéricas usando funciones como punteros y lambdas.
+  Incluye dos funciones (una cúbica y una logarítmica) y un template para derivar cualquier función real.
+
+ejemplo2.cpp
+→ Ejemplo de sobrecarga del operador `()` en una estructura.
+  El objeto `Foo` actúa como función: eleva su valor interno a la potencia que recibe.
+
+SEMANA_5A_EJERC1.cpp
+→ Ordenamiento burbuja (bubble sort) con punteros a funciones.
+  Ordena un vector según el valor absoluto, pero mantiene los signos.
+
+SEMANA_5A_EJERC2.cpp
+→ Cifrado afín clásico usando sobrecarga del operador `()`.
+  Convierte letras encriptadas según la fórmula: C = (a·x + b) mod 26.
+  Incluye función para cifrar una frase completa.
+
