@@ -39,15 +39,18 @@ int main() {
 
     print(lista.begin(), lista.end());
 
+    cout << endl;
     lista.push_front(1);  // Añade 1 al inicio
     print(lista.begin(), lista.end());
-
+cout << endl;
     auto it = lista.begin();
     it = next(it);// Avanza al segundo nodo
     lista.insert_after(it, 9);  // Inserta 9 después del segundo nodo
     print(lista.begin(), lista.end());
+    cout<<endl;
     lista.remove_if([](int x){return x%2==1;});// Elimina todos los impares
     print(lista.begin(), lista.end());
+    cout<<endl;
     return 0;
 }
 

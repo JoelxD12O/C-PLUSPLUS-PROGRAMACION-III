@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SEMANA_6::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SEMANA_6-Debug-2d20897c13158cb28d2a.json",
+					"jsonFile" : "target-SEMANA_6-Debug-e1e838acbe74a403c7d6.json",
 					"name" : "SEMANA_6",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ALUMNO08/CLionProjects/SEMANA_6/cmake-build-debug",
-		"source" : "C:/Users/ALUMNO08/CLionProjects/SEMANA_6"
+		"build" : "C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/cmake-build-debug",
+		"source" : "C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6"
 	},
 	"version" : 
 	{

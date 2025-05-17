@@ -1,3 +1,3 @@
-C:/Users/ALUMNO08/CLionProjects/SEMANA_6/cmake-build-debug/CMakeFiles/SEMANA_6.dir
-C:/Users/ALUMNO08/CLionProjects/SEMANA_6/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ALUMNO08/CLionProjects/SEMANA_6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/cmake-build-debug/CMakeFiles/SEMANA_6.dir
+C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
