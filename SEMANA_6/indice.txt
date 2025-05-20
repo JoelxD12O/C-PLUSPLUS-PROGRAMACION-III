@@ -1,4 +1,4 @@
-Índice de Archivos - C++ Programación III
+Índice de Archivos - C++ Programación III-JOEL
 
 main.cpp
 - Demostración de uso de vector y forward_list
@@ -24,3 +24,20 @@ SEM_6_LAB1_EJER3.cpp
 - Demostración de recorrido e inserción con iteradores
 - Uso de next() para navegación en lista enlazada
 - Inserción de elementos en posición específica
+
+SEM_6_LAB2_EJER1.cpp
+- Generación de vector con números aleatorios
+- Conteo de ocurrencias con unordered_map
+- Cálculo de la moda usando iteradores sobre mapas
+
+SEM_6_LAB2_EJER2.cpp
+- Lectura de palabras desde consola
+- Conversión a minúsculas con función personalizada
+- Conteo de frecuencia de palabras usando map
+- Impresión del resultado con palabras y repeticiones
+
+SEM_6_LAB2_EJER3.cpp
+- Uso de map y unordered_map para pares clave-valor
+- Inserción, modificación y búsqueda en map
+- Uso de unordered_set y set para conjuntos únicos
+- Cálculo y visualización del factor de carga en unordered_map
