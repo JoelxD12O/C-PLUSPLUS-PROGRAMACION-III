@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj"
-  "CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj.d"
+  "CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj"
+  "CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj.d"
   "SEMANA_6.exe"
   "SEMANA_6.exe.manifest"
   "SEMANA_6.pdb"

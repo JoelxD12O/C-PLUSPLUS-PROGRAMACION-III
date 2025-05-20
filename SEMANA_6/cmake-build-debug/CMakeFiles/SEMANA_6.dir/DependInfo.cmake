@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/SEM_6_LAB1_EJER3.cpp" "CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj" "gcc" "CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj.d"
+  "C:/Users/user/Desktop/PROGRAMACION III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/SEM_6_LAB2_EJER3.cpp" "CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj" "gcc" "CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

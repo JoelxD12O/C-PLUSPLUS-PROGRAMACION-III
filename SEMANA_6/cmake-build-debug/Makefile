@@ -128,29 +128,29 @@ SEMANA_6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/build
 .PHONY : SEMANA_6/fast
 
-SEM_6_LAB1_EJER3.obj: SEM_6_LAB1_EJER3.cpp.obj
-.PHONY : SEM_6_LAB1_EJER3.obj
+SEM_6_LAB2_EJER3.obj: SEM_6_LAB2_EJER3.cpp.obj
+.PHONY : SEM_6_LAB2_EJER3.obj
 
 # target to build an object file
-SEM_6_LAB1_EJER3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj
-.PHONY : SEM_6_LAB1_EJER3.cpp.obj
+SEM_6_LAB2_EJER3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj
+.PHONY : SEM_6_LAB2_EJER3.cpp.obj
 
-SEM_6_LAB1_EJER3.i: SEM_6_LAB1_EJER3.cpp.i
-.PHONY : SEM_6_LAB1_EJER3.i
+SEM_6_LAB2_EJER3.i: SEM_6_LAB2_EJER3.cpp.i
+.PHONY : SEM_6_LAB2_EJER3.i
 
 # target to preprocess a source file
-SEM_6_LAB1_EJER3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.i
-.PHONY : SEM_6_LAB1_EJER3.cpp.i
+SEM_6_LAB2_EJER3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.i
+.PHONY : SEM_6_LAB2_EJER3.cpp.i
 
-SEM_6_LAB1_EJER3.s: SEM_6_LAB1_EJER3.cpp.s
-.PHONY : SEM_6_LAB1_EJER3.s
+SEM_6_LAB2_EJER3.s: SEM_6_LAB2_EJER3.cpp.s
+.PHONY : SEM_6_LAB2_EJER3.s
 
 # target to generate assembly for a file
-SEM_6_LAB1_EJER3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.s
-.PHONY : SEM_6_LAB1_EJER3.cpp.s
+SEM_6_LAB2_EJER3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SEMANA_6.dir\build.make CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.s
+.PHONY : SEM_6_LAB2_EJER3.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SEMANA_6
-	@echo ... SEM_6_LAB1_EJER3.obj
-	@echo ... SEM_6_LAB1_EJER3.i
-	@echo ... SEM_6_LAB1_EJER3.s
+	@echo ... SEM_6_LAB2_EJER3.obj
+	@echo ... SEM_6_LAB2_EJER3.i
+	@echo ... SEM_6_LAB2_EJER3.s
 .PHONY : help
 
 

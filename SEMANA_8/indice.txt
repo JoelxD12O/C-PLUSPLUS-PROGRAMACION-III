@@ -14,3 +14,29 @@ SEM_8_LABA_EJER3.cpp
 - Reserva y liberación dinámica de memoria para matrices con punteros dobles
 - División del trabajo en bloques de filas para procesamiento concurrente
 - Uso de std::thread y sincronización con join()
+
+
+SEM_6_LABB_EJER1.cpp
+- Conversión secuencial de imagen RGB a escala de grises usando matrices dinámicas
+- Uso de estructura Pixel con componentes r, g, b
+- Reserva y liberación manual de memoria dinámica
+
+SEM_6_LABB_EJER2.cpp
+- Conversión paralela de imagen RGB a escala de grises con dos hilos
+- División del procesamiento de filas entre hilos
+- Uso de std::thread y sincronización con join()
+
+SEM_6_LABB_EJER3.cpp
+- Conteo simple de palabras en la primera línea de un archivo de texto
+- Lectura de archivo con ifstream y manejo básico de strings
+- Uso de paso por referencia para retornar conteo
+
+SEM_6_LABB_EJER4.cpp
+- Simulación de descarga con retardo usando thread y sleep_for
+- Escritura en archivo y uso de flujo clog para logs
+- Uso de rand para simular tiempo variable
+
+SEM_6_LABB_EJER5.cpp
+- Simulación de sensor que genera lecturas periódicas y las escribe en archivo
+- Ejecución del sensor en hilo separado con detach
+- Lectura y muestra continua del archivo en el hilo principal

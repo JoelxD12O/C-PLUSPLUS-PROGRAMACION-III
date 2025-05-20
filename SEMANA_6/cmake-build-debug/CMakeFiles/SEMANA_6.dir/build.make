@@ -71,28 +71,28 @@ include CMakeFiles/SEMANA_6.dir/flags.make
 CMakeFiles/SEMANA_6.dir/codegen:
 .PHONY : CMakeFiles/SEMANA_6.dir/codegen
 
-CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj: CMakeFiles/SEMANA_6.dir/flags.make
-CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj: C:/Users/user/Desktop/PROGRAMACION\ III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/SEM_6_LAB1_EJER3.cpp
-CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj: CMakeFiles/SEMANA_6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj -MF CMakeFiles\SEMANA_6.dir\SEM_6_LAB1_EJER3.cpp.obj.d -o CMakeFiles\SEMANA_6.dir\SEM_6_LAB1_EJER3.cpp.obj -c "C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\SEM_6_LAB1_EJER3.cpp"
+CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj: CMakeFiles/SEMANA_6.dir/flags.make
+CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj: C:/Users/user/Desktop/PROGRAMACION\ III/C-PLUSPLUS-PROGRAMACION-III/SEMANA_6/SEM_6_LAB2_EJER3.cpp
+CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj: CMakeFiles/SEMANA_6.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj -MF CMakeFiles\SEMANA_6.dir\SEM_6_LAB2_EJER3.cpp.obj.d -o CMakeFiles\SEMANA_6.dir\SEM_6_LAB2_EJER3.cpp.obj -c "C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\SEM_6_LAB2_EJER3.cpp"
 
-CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\SEM_6_LAB1_EJER3.cpp" > CMakeFiles\SEMANA_6.dir\SEM_6_LAB1_EJER3.cpp.i
+CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\SEM_6_LAB2_EJER3.cpp" > CMakeFiles\SEMANA_6.dir\SEM_6_LAB2_EJER3.cpp.i
 
-CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\SEM_6_LAB1_EJER3.cpp" -o CMakeFiles\SEMANA_6.dir\SEM_6_LAB1_EJER3.cpp.s
+CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\user\Desktop\PROGRAMACION III\C-PLUSPLUS-PROGRAMACION-III\SEMANA_6\SEM_6_LAB2_EJER3.cpp" -o CMakeFiles\SEMANA_6.dir\SEM_6_LAB2_EJER3.cpp.s
 
 # Object files for target SEMANA_6
 SEMANA_6_OBJECTS = \
-"CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj"
+"CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj"
 
 # External object files for target SEMANA_6
 SEMANA_6_EXTERNAL_OBJECTS =
 
-SEMANA_6.exe: CMakeFiles/SEMANA_6.dir/SEM_6_LAB1_EJER3.cpp.obj
+SEMANA_6.exe: CMakeFiles/SEMANA_6.dir/SEM_6_LAB2_EJER3.cpp.obj
 SEMANA_6.exe: CMakeFiles/SEMANA_6.dir/build.make
 SEMANA_6.exe: CMakeFiles/SEMANA_6.dir/linkLibs.rsp
 SEMANA_6.exe: CMakeFiles/SEMANA_6.dir/objects1.rsp
