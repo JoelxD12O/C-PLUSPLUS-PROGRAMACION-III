@@ -1,0 +1,16 @@
+SEM_8_LABA_EJER1.cpp
+- Función plantilla con hilo que suma después de un retardo
+- Uso de std::thread y std::ref para modificar variables desde hilos
+- Ejecución y sincronización con join()
+
+SEM_8_LABA_EJER2.cpp
+- Suma paralela de dos vectores usando hilos
+- División del vector en segmentos para procesamiento concurrente
+- Uso de std::thread, std::ref y std::cref para pasar argumentos por referencia
+- Validación del resultado después de la suma paralela
+
+SEM_8_LABA_EJER3.cpp
+- Suma paralela de matrices dinámicas usando hilos
+- Reserva y liberación dinámica de memoria para matrices con punteros dobles
+- División del trabajo en bloques de filas para procesamiento concurrente
+- Uso de std::thread y sincronización con join()
