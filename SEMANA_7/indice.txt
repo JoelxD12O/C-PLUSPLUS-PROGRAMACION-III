@@ -1,0 +1,8 @@
+
+main-JOEL
+segun el avance de mi profesor solo fue este archivo :0
+
+- Detección de dos números que suman 10 en un vector
+- Implementación de algoritmo de dos punteros (requiere vector ordenado)
+- Implementación de algoritmo con unordered_set (no requiere orden)
+- Comparación de ambos métodos con ejemplos
