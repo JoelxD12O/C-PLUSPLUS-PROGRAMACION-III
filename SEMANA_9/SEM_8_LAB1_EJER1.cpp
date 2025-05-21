@@ -24,10 +24,16 @@ void sumarParalelo(const vector<int>& vec, int& suma, int inicio, int fin) {
         suma_parcial += vec[i]; // Suma cada elemento a la suma parcial
     }
 
-    // Sección crítica: se protege el acceso a la variable suma compartida
+    m.lock();
+    suma += suma_parcial; // Bloquea el mutex para proteger la variable suma
+    m.unlock();
+/*==========OTRA FORMA================
+    // Bloquea el mutex para proteger la variable suma durante la actualización(SOLO SIRVE SI SERA UNA LINEA)
     lock_guard<mutex> lock(m); // Bloquea el mutex automáticamente en este bloque
     suma += suma_parcial; // Suma la suma parcial a la suma total
     // El mutex se libera automáticamente al salir del bloque
+    ================================================================
+    */
 }
 
 int main() {
