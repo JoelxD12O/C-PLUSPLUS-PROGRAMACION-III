@@ -1,0 +1,26 @@
+| **Enfoques**       | **Programación Concurrente**                                 | **Programación Paralela**                         |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------- |
+| **Objetivos**      | Gestionar múltiples tareas simultáneamente                   | Ejecutar tareas simultáneamente en varios núcleos |
+| **Ejecución**      | Tareas se pueden iniciar y completar en tiempos intercalados | Tareas se ejecutan al mismo tiempo                |
+| **Requerimientos** | Puede funcionar con un solo hilo                             | Requiere múltiples hilos                          |
+| **Aplicación**     | Diseño del software y flujo de control                       | Eficiencia en la ejecución y uso de recursos      |
+| **Ejemplo**        | Un servidor web manejando múltiples solicitudes de clientes   | Procesamiento de imágenes en paralelo            |
+
+
+
+¿Cuál es la diferencia entre tareas síncronas y asíncronas?
+
+Enfoques              | Tareas Síncronas                                   | Tareas Asíncronas
+-------------------------------------------------------------------------------------------------
+Objetivos             | Secuencial; espera a que cada tarea finalice      | Concurrente; permite la ejecución simultánea
+
+Bloqueo               | Bloquea el hilo actual                             | No bloquea el hilo; permite otras operaciones
+
+Uso de recursos       | Puede ser ineficiente en operaciones largas       | Mejora la eficiencia y la capacidad de respuesta
+
+Errores               | Más sencillo, ya que las excepciones se manejan inmediatamente
+                      |                                                   | Puede requerir manejo adicional para errores
+
+Podemos ejecutar tareas síncronas y asíncronas en ambos enfoques...
+
+
