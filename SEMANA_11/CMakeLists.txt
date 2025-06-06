@@ -4,4 +4,6 @@ project(SEMANA_11)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(SEMANA_11
-        Proxy.cpp)
+        iterator.cpp
+        Observer.cpp
+)
