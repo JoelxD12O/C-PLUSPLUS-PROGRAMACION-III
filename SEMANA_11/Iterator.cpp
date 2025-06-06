@@ -133,7 +133,7 @@ int main() {
         it2->next();
     }
 
-    cout << "Iteración hacia atrás completa.\n" << endl;
+    cout << "Iteración hacia atras completa.\n" << endl;
 
 
     return 0;

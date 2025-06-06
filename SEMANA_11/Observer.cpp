@@ -6,56 +6,40 @@
 #include <vector>
 using namespace std;
 
-
 class Observer {
 public:
-    virtual void notificar(const string& mensaje) = 0;
+    virtual void notificar(string historia, string usuario) = 0;
 };
-class Seguidor : public Observer {
+class Seguidor: public Observer {
 private:
     string nombre;
+public:
+    Seguidor(string n): nombre(n) {}
+    void notificar(string historia, string usuario) {
+        cout << "-> " << nombre << " - historia recibida de " << usuario << ": " <<
+        historia << endl;
+    }
 };
-
-
 class Usuario { // Clase observada concreta (Usuario)
 private:
     string nombre;
     vector<Observer*> observadores;
-
 public:
     Usuario(const string& nombre) : nombre(nombre) {}
-
     string getNombre() const { return nombre;}
-
-    void agregarObservador(Observer* observador) { observadores.push_back(observador);}
-
-    void eliminarObservador(Observer* observador) {
-        // Buscar y eliminar el observador de la lista de observadores
-    }
+    void agregarObservador(Observer* observador)
+    { observadores.push_back(observador);}
     void notificarSeguidores(const string& historia) {
-        // Notificar a todos los observadores con la nueva historia
+        for(auto obs: observadores) {
+            obs->notificar(historia, nombre);
+        }
     }
 };
-
-
-class seguidor : public Observer {
-private:
-    string nombre;
-
-public:
-    Seguidor(const string& nombre) : nombre(nombre) {}
-
-    void notificar(string historia, string usuario) override {
-        cout << "-> " << nombre << " - historia recibida de ";
-        cout << usuario << ": " << historia << endl;
-    }
-};
-
 int main() {
     // Crear usuarios y seguidores
     Usuario usuario("Usuario1");
-    seguidor seguidor1("Seguidor1");
-    seguidor seguidor2("Seguidor2");
+    Seguidor seguidor1("Seguidor1");
+    Seguidor seguidor2("Seguidor2");
 
     // Agregar seguidores al usuario
     usuario.agregarObservador(&seguidor1);
